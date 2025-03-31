@@ -217,3 +217,82 @@
 
 </body>
 </html>
+<!DOCTYPE html><html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community Hub</title>
+    <meta name="description" content="Community Hub - News, AI tools, business tips, football, and technology.">
+    <meta name="keywords" content="AI tools, Business tips, Football news, Technology, Movie downloads">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="Community Hub">
+    <meta property="og:description" content="Your go-to platform for AI tools, business tips, football updates, and technology news.">
+    <meta property="og:url" content="https://yourwebsite.com">
+    <meta property="og:type" content="website">
+    <link rel="canonical" href="https://yourwebsite.com">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Community Hub</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#payments">Payments</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header><section id="about">
+    <h2>About Us</h2>
+    <p>Community Hub is a platform for news, AI tools, business tips, football, and technology.</p>
+</section>
+
+<section id="features">
+    <h2>Key Features</h2>
+    <ul>
+        <li>News updates on AI, business, football, and tech</li>
+        <li>Movie downloads</li>
+        <li>Monetization for content creators</li>
+        <li>User engagement through likes, comments, and shares</li>
+        <li>Secure account settings</li>
+    </ul>
+</section>
+
+<section id="payments">
+    <h2>Make a Payment</h2>
+    <p>Support our platform or pay for premium content uploads.</p>
+    
+    <h3>Pay with PayPal</h3>
+    <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+        <input type="hidden" name="cmd" value="_xclick">
+        <input type="hidden" name="business" value="erickvedasto2001@gmail.com">
+        <input type="hidden" name="item_name" value="Content Upload Fee">
+        <input type="hidden" name="amount" value="10.00">
+        <input type="hidden" name="currency_code" value="USD">
+        <input type="submit" value="Pay Now">
+    </form>
+    
+    <h3>Pay with Stripe</h3>
+    <form action="/charge" method="post">
+        <script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+            data-key="your-stripe-public-key"
+            data-amount="1000"
+            data-name="Community Hub"
+            data-description="Content Upload Fee"
+            data-currency="usd">
+        </script>
+    </form>
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: <a href="mailto:erickvedasto2001@gmail.com">erickvedasto2001@gmail.com</a></p>
+</section>
+
+<footer>
+    <p>&copy; 2025 Community Hub. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
