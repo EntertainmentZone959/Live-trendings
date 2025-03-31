@@ -173,3 +173,47 @@
 
 </body>
 </html>
+<!DOCTYPE html><html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community Hub</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Community Hub</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header><section id="about">
+    <h2>About Us</h2>
+    <p>Community Hub is a platform for news, AI tools, business tips, football, and technology.</p>
+</section>
+
+<section id="features">
+    <h2>Key Features</h2>
+    <ul>
+        <li>News updates on AI, business, football, and tech</li>
+        <li>Movie downloads</li>
+        <li>Monetization for content creators</li>
+        <li>User engagement through likes, comments, and shares</li>
+        <li>Secure account settings</li>
+    </ul>
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: <a href="mailto:erickvedasto2001@gmail.com">erickvedasto2001@gmail.com</a></p>
+</section>
+
+<footer>
+    <p>&copy; 2025 Community Hub. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
